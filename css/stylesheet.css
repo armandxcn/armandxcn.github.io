@@ -135,7 +135,7 @@ html {
 }
 
 .hero-item h1 {
-  font-family: Avenir;
+  font-family: Avenir, Helvetica, Ariel, sans-serif;
   font-weight: lighter;
   padding: 30px 0px 0px 0px;
   color: #4B483F;
