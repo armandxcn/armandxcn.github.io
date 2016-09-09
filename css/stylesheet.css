@@ -187,6 +187,7 @@ html {
 .sil-right {
   left: auto;
   right: 20px;
+  visibility: hidden;
 }
 
 .sil-hidden {
@@ -308,6 +309,9 @@ html {
   .horizontal-item {
     padding-left: 57px;
     padding-right: 57px;
+  }
+  .sil-right {
+    visibility: visible;
   }
 }
 
