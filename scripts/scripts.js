@@ -3,6 +3,10 @@ $(window).scroll(checkScroll);
 
 $(document).ready(function(){
   setInterval('changeHeroImage()', 5000);
+  $(".simple-list").parallax({
+    calibrateX: true,
+    calibrateY: true
+  });
 })
 
 function changeHeroImage(){
