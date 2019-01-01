@@ -109,6 +109,13 @@ a:hover:after {
     transition: all 0s ease-out;
 }
 
+.additional-text {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 300px;
+}
+
 .links {
   position: relative;
 }
@@ -117,9 +124,8 @@ a:hover:after {
   font-family: Campton-LightWEB;
   font-weight: normal;
   font-size: 18px;
-  color: #D9D9D9;
+  color: rgba(0,0,0,0.44);
   letter-spacing: -0.3px;
-  margin: 0;
   padding-top: 60px;
   padding-bottom: 80px;
 }
@@ -135,7 +141,7 @@ a:hover:after {
 
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 800px) {
   .container {
     padding-top: 128px;
   }
@@ -167,6 +173,9 @@ a:hover:after {
   }
   .year {
     padding-bottom: 0px;
+    margin: 0;
+    max-width: 100%;
+    text-align: center;
   }
 }
 
